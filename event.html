@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .titleArea:before{
+            content:"";
+            display :block;
+            position: absolute;
+            top: -2rem;
+            left: -2rem;
+            right: -2rem;
+            bottom: -2rem;
+            /* height, width 넣으면 안됨 */
+        }
+        .eventlist{
+            max-width: 820px ;
+        }
+
+        p{
+            min-height: 4rem ;
+        }
+    </style>
+</head>
+<body>
+    <!-- .row.>li.col-sm-4*3 여기서 col 대신에 ustify-content-between 사용한다.-->
+    
+    <section id="event">
+        <div class="container">
+            <div class="row align-items-stretch">
+                <div class="titleArea flex-grow-1 position-realtive"></div>
+                <div class="eventlist row justify-content-between">
+                    <li></li>
+                    <li class="rounded-4 overflow-hidden-bg-white">
+                        <a href="" class="d-block">
+                            <a href="" class="d-block p-4">
+                                <strong class="d-block mb-3">
+                                </strong>
+                                <span class="d-block"></span>
+                                <i></i>
+                            </a>
+                            <img src="" alt="" class="d-block img-fluid">
+                        </a>
+                    </li>
+                    <li></li>
+                    <li></li>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
